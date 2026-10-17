@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    cout << "=====================\n";
+    cout << "==convert from int to char  ==\n";
+    cout << "=====================\n";
+    int cod;
+    cin >> cod;
+    cout << "the character corresponding to the ASCII value is :" << char(cod) << endl;
+    return 0;
+}
